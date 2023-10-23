@@ -1,0 +1,218 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 52px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dashed #000;
+    padding-right: 40px;
+}
+
+.menu .menu_item:last-child {
+    border-right: none;
+}
+
+.menu .menu_link {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_link:hover {
+    font-weight: 700;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 52px;
+    z-index: 1;
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+
+.subheader_official {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.subheader_call {
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 19px;
+}
+
+.subheader_phone {
+    display: block;
+    color: #FFF;
+    text-align: right;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.subheader_phone:hover {
+    font-weight: 700;
+}
+
+.promo_btn, .subheader_btn {
+    width: 172px;
+    height: 46px;
+    margin-top: 19px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center / cover no-repeat;
+    color: #fff;
+    padding: 202px 0 185px;
+}
+
+.promo_header, .promo_subheader {
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.promo_header {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.promo_subheader {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.promo_desc {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.promo_btn {
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+    display: block;
+    margin: 116px auto 0;
+}
+
+.reasons {
+    padding: 20px 0 64px;
+}
+
+.text_mini {
+    width: 113px;
+    height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.text_mini.dark {
+    color: #fff;
+    background-color: #000;
+}
+
+.text_mini.light {
+    background-color: #fff;
+}
+
+.reasons .row {
+    margin-top: 26px;
+}
+
+.reasons_card {
+    display: flex;
+    align-items: center;
+}
+
+.reasons_header {
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
+.reasons_card_icon {
+    display: flex;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background-color: #1EACC7;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons_card_desc {
+    width: 371px;
+    margin-left: 25px;
+    color: #202020;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.reasons_card_desc .blue {
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 400;
+}
